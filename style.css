@@ -1,6 +1,22 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'old-eng';
+    src: url(fonts/Old\ English\ Five.ttf);
+}
+
+body, html {
+    background-color: #bbbbbb;
+    min-height: 100%;
+}
+
+:root {
+    --fontmain: 'old-eng', Arial, Helvetica, sans-serif;;
+    --fontsec: Arial, Helvetica, sans-serif;
+}
+
 * {
+    font-family: var(--fontsec);
     margin: 0;
     padding: 0;
 }
@@ -12,5 +28,32 @@ header {
 }
 
 header > h1 {
-    
+    font-family: "old-eng";
+    font-size: 3.5vw;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+header > p {
+    padding-bottom: 40px;
+}
+
+section {
+    background-color: white;
+}
+
+section.content {
+    font-size: 4vw;
+}
+
+section > p {
+    background-color: #bbbbbb;
+    display: inline-block;
+    padding: 5px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
 }
