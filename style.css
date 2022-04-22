@@ -47,6 +47,18 @@ section.content {
     font-size: 4vw;
 }
 
+section.img {
+    
+
+}
+
+section#cicada {
+    background-image: url(images/cicada_3301_widelg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 section > p {
     background-color: #bbbbbb;
     display: inline-block;
